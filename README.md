@@ -35,7 +35,9 @@ Using neural networks and advanced visualizations, the project analyzes borrower
 7. [Technologies Used](#technologies-used)  
 8. [Installation and How to Use](#installation-and-how-to-use)  
 9. [Recommendations](#recommendations)  
-10. [Conclusion](#conclusion)  
+10. [Future Considerations](#future-considerations)  
+11. [Conclusion](#conclusion)  
+
 
 ---
 
