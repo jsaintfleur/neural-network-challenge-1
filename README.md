@@ -272,3 +272,6 @@ To further enhance the model and its business impact, future iterations of this 
    - Implement fairness metrics to measure and improve the equity of predictions.
 
 By addressing these future considerations, the model can evolve into a more robust, scalable, and impactful solution that aligns with both short-term and long-term business goals.
+
+
+[↩️](#table-of-contents)  
