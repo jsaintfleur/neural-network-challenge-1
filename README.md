@@ -47,21 +47,27 @@ Using neural networks and advanced visualizations, the project analyzes borrower
 
 The dataset contains the following columns:
 
-| Column             | Data Type  | Description                                              |
-|--------------------|------------|----------------------------------------------------------|
-| `credit_ranking`   | int64      | Target variable: 1 for repayment, 0 for default.         |
-| `payment_history`  | float64    | Historical credit behavior score.                        |
-| `location_parameter` | float64  | Location-based economic indicator.                       |
-| `stem_degree_score` | float64   | Score indicating value of the borrower’s STEM degree.    |
-| `gpa_ranking`      | float64    | GPA score ranking of the borrower.                      |
-| `time_to_completion` | float64  | Time taken to complete education (in years).            |
-| `financial_aid_score` | float64 | Score representing financial aid received.              |
+| Column                  | Data Type  | Description                                                |
+|-------------------------|------------|------------------------------------------------------------|
+| `payment_history`       | float64    | Historical credit behavior score.                          |
+| `location_parameter`    | float64    | Location-based economic indicator.                         |
+| `stem_degree_score`     | float64    | Score indicating the value of the borrower’s STEM degree.  |
+| `gpa_ranking`           | float64    | GPA score ranking of the borrower.                        |
+| `alumni_success`        | float64    | Metric representing the success rate of alumni.            |
+| `study_major_code`      | float64    | Encoded numerical value representing the study major.      |
+| `time_to_completion`    | float64    | Time taken to complete education (in years).               |
+| `finance_workshop_score`| float64    | Score representing financial literacy training completion. |
+| `cohort_ranking`        | float64    | Cohort-based ranking score for the borrower.               |
+| `total_loan_score`      | float64    | Aggregate loan scoring metric.                             |
+| `financial_aid_score`   | float64    | Score representing the level of financial aid received.    |
+| `credit_ranking`        | int64      | Target variable: 1 for repayment, 0 for default.           |
 
 ### Dataset Summary
 - **Row Count**: 1,599 entries
 - **Memory Usage**: ~150 KB
-- **Non-null Count**: All columns have 1,599 non-null entries
-- **Data Types**: A mix of object (string) and numerical (float64, int64)
+- **Non-null Count**: All columns have 1,599 non-null entries.
+- **Data Types**: Numerical (float64, int64).
+
 
 ---
 
