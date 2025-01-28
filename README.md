@@ -1,5 +1,7 @@
 # Loan Repayment Prediction Model
 
+![Introduction](images/intro.jpeg)
+
 ## Purpose
 The **Loan Repayment Prediction Model** is a machine learning solution that predicts whether a borrower will repay their student loan. By leveraging Python, TensorFlow, and other data analysis libraries, the project provides actionable insights into borrower risk, enabling financial institutions to make data-driven lending decisions. 
 
