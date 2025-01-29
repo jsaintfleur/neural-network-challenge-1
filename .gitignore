@@ -171,4 +171,8 @@ cython_debug/
 .pypirc
 
 
-.DStore
+# macOS system files that should be ignored
+# Stores custom attributes of folder views, automatically created by macOS
+.DS_Store  
+
+
